@@ -17,9 +17,9 @@ dashboard_themes = false
 bot_dashboard = "BotPanel (beta)"
 
 [BotGhost_Premium]
-price_monthly = 1199
-price_yearly = 
-price_lifetime = 
+price_monthly = 2399
+price_yearly = 9999
+price_lifetime = 14999
 bots_per_account = "Unlimited"
 components_per_bot = "Unlimited"
 servers_per_bot = "Unlimited"
