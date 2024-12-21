@@ -52,6 +52,23 @@ support = true
 dashboard_themes = true
 bot_dashboard = "BotDash (under construction)"
 
+[Inventor_Ultimate]
+price_monthly = 1199
+price_yearly = 9999
+bots_per_account = "20 premium, 3 free"
+components_per_bot = "Unlimited"
+servers_per_bot = 1500
+flow_time_limit = 45
+storage_type = "Global Variables and Databases"
+storage_limit = "30,000 Crates"
+music = false
+collaboration = true
+bot_status = true
+prebuilt_commands = "Free, customizable, community-made library"
+support = true
+dashboard_themes = true
+bot_dashboard = "BotDash (under construction)"
+
 [BotGhost_Free]
 price_monthly = 0
 price_yearly = 0
@@ -87,23 +104,6 @@ prebuilt_commands = "Premium Modules"
 support = true
 dashboard_themes = false
 bot_dashboard = "BotPanel (beta)"
-
-[Inventor_Ultimate]
-price_monthly = 1199
-price_yearly = 9999
-bots_per_account = "20 premium, 3 free"
-components_per_bot = "Unlimited"
-servers_per_bot = 1500
-flow_time_limit = 45
-storage_type = "Global Variables and Databases"
-storage_limit = "30,000 Crates"
-music = false
-collaboration = true
-bot_status = true
-prebuilt_commands = "Free, customizable, community-made library"
-support = true
-dashboard_themes = true
-bot_dashboard = "BotDash (under construction)"
 
 [BotWiz_Free]
 price_monthly = 0
