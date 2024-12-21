@@ -1,0 +1,161 @@
+[BotGhost_Free]
+price_monthly = 0
+price_yearly = 0
+price_lifetime = 0
+bots_per_account = "Unlimited"
+components_per_bot = "3 custom commands, 3 custom events"
+servers_per_bot = 5
+flow_time_limit = "Unlimited"
+storage_type = "Variables"
+storage_limit = "Not specified"
+music = false
+collaboration = true
+bot_status = "Listening to Made with BotGhost.com"
+prebuilt_commands = "Basic Modules"
+support = false
+dashboard_themes = false
+bot_dashboard = "BotPanel (beta)"
+
+[BotGhost_Premium]
+price_monthly = 1199
+price_yearly = 
+price_lifetime = 
+bots_per_account = "Unlimited"
+components_per_bot = "Unlimited"
+servers_per_bot = "Unlimited"
+flow_time_limit = "Unlimited"
+storage_type = "Variables"
+storage_limit = "Not specified"
+music = false
+collaboration = true
+bot_status = "Custom"
+prebuilt_commands = "Premium Modules"
+support = true
+dashboard_themes = false
+bot_dashboard = "BotPanel (beta)"
+
+[Inventor_Free]
+price_monthly = 0
+price_yearly = 0
+bots_per_account = "3 free bots"
+components_per_bot = "15 components (commands, events, or custom blocks)"
+servers_per_bot = 10
+flow_time_limit = 10
+storage_type = "Global Variables"
+storage_limit = "500 Crates"
+music = false
+collaboration = true
+bot_status = "'Playing invt.lol' prefix"
+prebuilt_commands = "Free, customizable, community-made library"
+support = true
+dashboard_themes = true
+bot_dashboard = "BotDash (under construction)"
+
+[Inventor_Premium]
+price_monthly = 599
+price_yearly = 4999
+bots_per_account = " 1 premium, 3 free"
+components_per_bot = "Unlimited"
+servers_per_bot = 1000
+flow_time_limit = 30
+storage_type = "Global Variables and Databases"
+storage_limit = "20,000 Crates"
+music = false
+collaboration = true
+bot_status = true
+prebuilt_commands = "Free, customizable, community-made library"
+support = true
+dashboard_themes = true
+bot_dashboard = "BotDash (under construction)"
+
+[Inventor_Ultimate]
+price_monthly = 1199
+price_yearly = 9999
+bots_per_account = "20 premium, 3 free"
+components_per_bot = "Unlimited"
+servers_per_bot = 1500
+flow_time_limit = 45
+storage_type = "Global Variables and Databases"
+storage_limit = "30,000 Crates"
+music = false
+collaboration = true
+bot_status = true
+prebuilt_commands = "Free, customizable, community-made library"
+support = true
+dashboard_themes = true
+bot_dashboard = "BotDash (under construction)"
+
+[BotWiz_Free]
+price_monthly = 0
+price_yearly = 0
+bots_per_account = "Unknown"
+components_per_bot = 10
+servers_per_bot = "Unknown"
+flow_time_limit = "Unknown"
+storage_type = "Variables"
+storage_limit = "Not specified"
+music = false
+collaboration = false
+bot_status = "Watching Made with BotWiz.dev"
+prebuilt_commands = "Modules"
+support = true
+dashboard_themes = true
+bot_dashboard = "None"
+notes = "A la carte pricing available"
+
+[BotWiz_Basic]
+price_monthly = 500
+price_yearly = 
+price_lifetime = 
+bots_per_account = "Unlimited free? One premium"
+components_per_bot = "?"
+servers_per_bot = "?"
+flow_time_limit = "?"
+storage_type = "Global variables"
+storage_limit = "Not specified"
+music = false
+collaboration = false
+bot_status = true
+prebuilt_commands = "Modules"
+support = true
+dashboard_themes = true
+bot_dashboard = false
+notes = "A la carte pricing available"
+
+[BotWiz_Premium]
+price_monthly = 900
+price_yearly = 
+price_lifetime = 
+bots_per_account = "Unlimited free? One premium"
+components_per_bot = "?"
+servers_per_bot = "?"
+flow_time_limit = "?"
+storage_type = "Variables"
+storage_limit = "Not specified"
+music = false
+collaboration = false
+bot_status = true
+prebuilt_commands = "Modules"
+support = true
+dashboard_themes = true
+bot_dashboard = false
+notes = "A la carte pricing available"
+
+[BotWiz_Wizards]
+price_monthly = 1400
+price_yearly = 
+price_lifetime = 
+bots_per_account = "Unlimited free? One premium"
+components_per_bot = "?"
+servers_per_bot = "?"
+flow_time_limit = "?"
+storage_type = "Global variables"
+storage_limit = "Not specified"
+music = true
+collaboration = "Offline collaboration (1 user at time)"
+bot_status = true
+prebuilt_commands = "Modules"
+support = true
+dashboard_themes = true
+bot_dashboard = false
+notes = "A la carte pricing available"
