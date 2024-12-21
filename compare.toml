@@ -1,6 +1,7 @@
 # These descriptions are meant to be user-facing for each field
 [CompareList_Field_Descriptions]
 # prices are defined in the list in USD pennies, but should be displayed as a proper USD value (e.g. $5.00)
+# for prices, -1 indicates free plan, -1 indicates that the given plan interval is not offered
 price_monthly = "Monthly price for this plan in USD."
 price_yearly =" Yearly price for this plan in USD."
 price_lifetime = "If offered, lifetime price for this plan in USD."
@@ -19,9 +20,9 @@ bot_dashboard = "System for creating bot dashboards."
 notes = "Any additional details not covered by above."
 
 [Inventor_Free]
-price_monthly = 0
-price_yearly = 0
-price_lifetime = 0
+price_monthly = -1
+price_yearly = -1
+price_lifetime = -1
 bots_per_account = "3 free bots"
 components_per_bot = "15 components (commands, events, or custom blocks)"
 servers_per_bot = 10
@@ -39,7 +40,7 @@ bot_dashboard = "BotDash (under construction)"
 [Inventor_Premium]
 price_monthly = 599
 price_yearly = 4999
-price_lifetime = -1
+price_lifetime = -2
 bots_per_account = " 1 premium, 3 free"
 components_per_bot = "Unlimited"
 servers_per_bot = 1000
@@ -57,7 +58,7 @@ bot_dashboard = "BotDash (under construction)"
 [Inventor_Ultimate]
 price_monthly = 1199
 price_yearly = 9999
-price_lifetime = -1
+price_lifetime = -2
 bots_per_account = "20 premium, 3 free"
 components_per_bot = "Unlimited"
 servers_per_bot = 1500
@@ -73,9 +74,9 @@ dashboard_themes = true
 bot_dashboard = "BotDash (under construction)"
 
 [BotGhost_Free]
-price_monthly = 0
-price_yearly = 0
-price_lifetime = 0
+price_monthly = -1
+price_yearly = -1
+price_lifetime = -1
 bots_per_account = "Unlimited"
 components_per_bot = "3 custom commands, 3 custom events"
 servers_per_bot = 5
@@ -109,9 +110,9 @@ dashboard_themes = false
 bot_dashboard = "BotPanel (beta)"
 
 [BotWiz_Free]
-price_monthly = 0
-price_yearly = 0
-price_lifetime = 0
+price_monthly = -1
+price_yearly = -1
+price_lifetime = -1
 bots_per_account = "Unknown"
 components_per_bot = 10
 servers_per_bot = "Unknown"
