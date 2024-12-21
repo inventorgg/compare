@@ -107,7 +107,7 @@ support = false
 dashboard_themes = false
 bot_dashboard = "BotPanel (beta)"
 
-[BotGhost_Premium_Single-Bot]
+[BotGhost_Premium_Single_Bot]
 price_monthly = 1100
 price_yearly = 4999
 price_lifetime = 9999
@@ -128,7 +128,7 @@ support = true
 dashboard_themes = false
 bot_dashboard = "BotPanel (beta)"
 
-[BotGhost_Premium_Multi-Bot]
+[BotGhost_Premium_Multi_Bot]
 price_monthly = 2399
 price_yearly = 9999
 price_lifetime = 14999
