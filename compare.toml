@@ -20,8 +20,8 @@ plugins = "Plugins or built-in modules."
 flow_sharing = "Links or codes to share flows between bots."
 support = "Official/priority support availability."
 dashboard_themes = "Ability to set themes in the bot maker dashboard."
-bot_dashboard = "System for creating bot dashboards."
-notes = "Any additional details not covered by above."
+bot_dashboard = "Ability to create a dashboard for your bot."
+notes = "Any additional details not covered by above." # notes should have a single space " " for a blank value
 
 [Inventor_Free]
 price_monthly = -1
@@ -36,13 +36,14 @@ database_storage = true
 storage_limit = "500 Crates"
 music = false
 collaboration = true
-bot_status = "invt.lol prefix"
+bot_status = "invt.lol (prefix)"
 library = true
 plugins = "Soon"
 flow_sharing = true
 support = true
 dashboard_themes = true
-bot_dashboard = "BotDash (under construction)"
+bot_dashboard = true
+notes = " "
 
 [Inventor_Premium]
 price_monthly = 599
@@ -63,7 +64,8 @@ plugins = "Soon"
 flow_sharing = true
 support = true
 dashboard_themes = true
-bot_dashboard = "BotDash (under construction)"
+bot_dashboard = true
+notes = " "
 
 [Inventor_Ultimate]
 price_monthly = 1199
@@ -84,7 +86,8 @@ plugins = "Soon"
 flow_sharing = true
 support = true
 dashboard_themes = true
-bot_dashboard = "BotDash (under construction)"
+bot_dashboard = true
+notes = " "
 
 [BotGhost_Free]
 price_monthly = -1
@@ -96,7 +99,7 @@ servers_per_bot = 5
 flow_time_limit = "Unlimited"
 variable_storage = true
 database_storage = false
-storage_limit = "Not specified"
+storage_limit = "500 calls"
 music = false
 collaboration = true
 bot_status = "Listening to Made with BotGhost.com"
@@ -105,7 +108,8 @@ plugins = true
 flow_sharing = true
 support = false
 dashboard_themes = false
-bot_dashboard = "BotPanel (beta)"
+bot_dashboard = true
+notes = " "
 
 [BotGhost_Premium_Single_Bot]
 price_monthly = 1100
@@ -117,7 +121,7 @@ servers_per_bot = "Unlimited"
 flow_time_limit = "Unlimited"
 variable_storage = true
 database_storage = false
-storage_limit = "Not specified"
+storage_limit = "Unlimited calls"
 music = false
 collaboration = true
 bot_status = true
@@ -126,7 +130,8 @@ plugins = true
 flow_sharing = true
 support = true
 dashboard_themes = false
-bot_dashboard = "BotPanel (beta)"
+bot_dashboard = true
+notes = " "
 
 [BotGhost_Premium_Multi_Bot]
 price_monthly = 2399
@@ -138,7 +143,7 @@ servers_per_bot = "Unlimited"
 flow_time_limit = "Unlimited"
 variable_storage = true
 database_storage = false
-storage_limit = "Not specified"
+storage_limit = "Unlimited calls"
 music = false
 collaboration = true
 bot_status = true
@@ -147,7 +152,8 @@ plugins = true
 flow_sharing = true
 support = true
 dashboard_themes = false
-bot_dashboard = "BotPanel (beta)"
+bot_dashboard = true
+notes = " "
 
 [BotWiz_Free]
 price_monthly = -1
@@ -159,7 +165,7 @@ servers_per_bot = "?"
 flow_time_limit = "?"
 variable_storage = true
 database_storage = false
-storage_limit = "Not specified"
+storage_limit = "?"
 music = false
 collaboration = false
 bot_status = "Watching Made with BotWiz.dev"
@@ -169,7 +175,7 @@ flow_sharing = true
 support = true
 dashboard_themes = true
 bot_dashboard = false
-notes = "A la carte pricing available"
+notes = " "
 
 [BotWiz_Basic]
 price_monthly = 521
@@ -181,7 +187,7 @@ servers_per_bot = "?"
 flow_time_limit = "?"
 variable_storage = true
 database_storage = false
-storage_limit = "Not specified"
+storage_limit = "?"
 music = false
 collaboration = false
 bot_status = true
@@ -203,7 +209,7 @@ servers_per_bot = "?"
 flow_time_limit = "?"
 variable_storage = true
 database_storage = false
-storage_limit = "Not specified"
+storage_limit = "?"
 music = false
 collaboration = false
 bot_status = true
@@ -225,7 +231,7 @@ servers_per_bot = "?"
 flow_time_limit = "?"
 variable_storage = true
 database_storage = false
-storage_limit = "Not specified"
+storage_limit = "?"
 music = true
 collaboration = false
 bot_status = true
