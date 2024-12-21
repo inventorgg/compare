@@ -14,7 +14,7 @@ This list currently compares the following bot makers:
 We are currently only planning on including bot makers that are cloud-based and fully-featured (including hosting). We may expand to other types of bot makers in the future.
 
 ## Contributing
-If you notice something inaccurate here, or believe we should be tracking a new metric, please submit a pull request (the yaml file is easy to edit with GitHub's web editor).
+If you notice something inaccurate here, or believe we should be tracking a new metric, please submit a pull request (the toml file is easy to edit with GitHub's web editor).
 
 We also accept PRs for new bot maker products. Please keep in mind that such PRs should also update this list in the README.
 
