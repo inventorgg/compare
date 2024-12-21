@@ -1,5 +1,5 @@
 # inventorgg/compare
-This repository hosts a comprehensive comparison of the features of Discord bot hosting services across different plans. We ([inventor.gg](https://inventor.gg)) use this list to generate [comparison pages](https://inventor.gg/compare) on our marketing site.
+This repository hosts a comprehensive comparison of the features of Discord bot hosting services across different plans. We ([inventor.gg](https://inventor.gg)) use this list to generate comparison pages on our marketing site.
 
 ## Why?
 When companies compare themselves to competitors, those comparisons are often one-sided with cherry-picked data. We wanted our website to offer more honest comparison pages, so we decided to open-source the configuration file used to generate our comparison pages. We welcome contributions and suggestions from the community to improve this list and have licensed the list permissively so it can be used by others.
