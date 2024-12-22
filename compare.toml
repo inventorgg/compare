@@ -1,27 +1,63 @@
-# These descriptions are meant to be user-facing for each field
+# These descriptions are meant to be user-facing for each field, comments describe expected values for each field for consistency
 [CompareList_Field_Descriptions]
-# prices are defined in the list in USD pennies, but should be displayed as a proper USD value (e.g. $5.00)
+# --- Prices
+# prices are defined in the list as an integer number of USD pennies and should be displayed as a proper USD value (e.g. 500 -> $5.00)
 # for prices, -1 indicates free plan, -1 indicates that the given plan interval is not offered
 price_monthly = "Monthly price for this plan in USD."
-price_yearly =" Yearly price for this plan in USD."
+price_yearly = " Yearly price for this plan in USD."
 price_lifetime = "If offered, lifetime price for this plan in USD."
+# --- Included bots
+# This is the number of included bots with the plan being evaluated (integer number or "Unlimited")
 included_bots = "Number of bots you can create with this plan."
+# --- Automatic shutdown
+# Should be set to a time period string (e.g. "2 weeks" or "Never")
 automatic_shutdown = "When are bots shut down for inactivity?"
+# --- Components per bot
+# If components are fungible like Inventor (command and event are treated same) (integer number or specify e.g. "3 commands, 3 events")
 components_per_bot = "Number of commands/events/etc. you can create per bot."
+# --- Servers per bot
+# Number of servers a bot on the given plan can be in (integer number or "Unlimited")
 servers_per_bot = "Number of Discord servers a bot can be in."
+# --- Flow time limit
+# If flows are limited in the amount of time they can execute for (integer number or "Unlimited")
 flow_time_limit = "Time limit on user-created flows or code."
+# --- Variable storage
+# This includes per-server/user/etc. variables or a more general key-value storage scheme (true/false)
 variable_storage = "Variable storage type offered."
+# --- Database Storage
+# Traditional column/row database, optionally relational (true/false)
 database_storage = "Database storage type offered."
+# --- Storage Limit
+# This is metered differently by different providers, provide a string with their limit (e.g. "50 MB" or "500 calls")
 storage_limit = "Limits on storage."
+# --- Collaboration
+# Does the bot allow you to collaborate with other users (true/false)
 collaboration = "Develop bots with other users."
+# --- Bot Status
+# For forced status/prefix plans, set this to a string with the forced status or status prefix
+# For plans with full customization available (relative to what is offered by that service), set this to true
 bot_status = "Customization options for bot status."
+# --- Library
+# Library system alowing users to install flows/commands/events/etc. created by other users (true/false)
 library = "Library system for sharing flows."
+# --- Plugins
+# Built-in modules or user-created fully-featured plugins (true/false)
 plugins = "Plugins or built-in modules."
+# --- Flow Sharing
+# Ability to share links/codes/etc to share events, commands, etc between users/bots (true/false)
 flow_sharing = "Links or codes to share flows between bots."
+# --- Support
+# Is official support from the developers of the platform offered at this tier (true/false)
 support = "Official/priority support availability."
+# --- Dashboard Themes
+# Is dashboard theming for the bot creator dashboard supported at this tier (true/false)
 dashboard_themes = "Ability to set themes in the bot maker dashboard."
+# --- Bot Dashboard
+# Does the service have a built-in system to create a dashboard for a bot (true/false)
 bot_dashboard = "Ability to create a dashboard for your bot."
-notes = "Any additional details not covered by above." # notes should have "N/A" for a blank value
+# --- Notes
+# Any additional notes for features not covered by the above data ("N/A" or string with notes)
+notes = "Any additional details not covered by above."
 
 [Inventor_Free]
 price_monthly = -1
@@ -34,7 +70,7 @@ servers_per_bot = 10
 flow_time_limit = 10
 variable_storage = true
 database_storage = true
-storage_limit = "500 Crates"
+storage_limit = "500 Crates (100kb)"
 collaboration = true
 bot_status = "invt.lol (prefix)"
 library = true
@@ -56,7 +92,7 @@ servers_per_bot = 1000
 flow_time_limit = 30
 variable_storage = true
 database_storage = true
-storage_limit = "20,000 Crates"
+storage_limit = "20,000 Crates (4mb)"
 collaboration = true
 bot_status = true
 library = true
@@ -78,7 +114,7 @@ servers_per_bot = 1500
 flow_time_limit = 45
 variable_storage = true
 database_storage = true
-storage_limit = "30,000 Crates"
+storage_limit = "30,000 Crates (6mb)"
 collaboration = true
 bot_status = true
 library = true
@@ -161,12 +197,12 @@ price_yearly = -1
 price_lifetime = -1
 included_bots = "Unlimited"
 automatic_shutdown = "Never"
-components_per_bot = 10
+components_per_bot = "10 commands and 10 Discord, 5 timed, 5 webhook, 10 custom events"
 servers_per_bot = "?"
-flow_time_limit = "?"
+flow_time_limit = "Unlimited"
 variable_storage = true
 database_storage = false
-storage_limit = "?"
+storage_limit = "15MB"
 collaboration = false
 bot_status = "Watching Made with BotWiz.dev"
 library = false
@@ -183,12 +219,12 @@ price_yearly = 7092
 price_lifetime = 5840
 included_bots = "1"
 automatic_shutdown = "Never"
-components_per_bot = "?"
-servers_per_bot = "?"
-flow_time_limit = "?"
+components_per_bot = "10 commands and 10 Discord, 5 timed, 5 webhook, 10 custom events"
+servers_per_bot = "Unlimited"
+flow_time_limit = "Unlimited"
 variable_storage = true
 database_storage = false
-storage_limit = "?"
+storage_limit = "30MB"
 collaboration = false
 bot_status = true
 library = false
@@ -205,12 +241,12 @@ price_yearly = 6383
 price_lifetime = 10512
 included_bots = "1"
 automatic_shutdown = "Never"
-components_per_bot = "?"
-servers_per_bot = "?"
-flow_time_limit = "?"
+components_per_bot = "100 commands and 100 Discord, 50 timed, 50 webhook, 100 custom events"
+servers_per_bot = "Unlimited"
+flow_time_limit = "Unlimited"
 variable_storage = true
 database_storage = false
-storage_limit = "?"
+storage_limit = "30MB"
 collaboration = false
 bot_status = true
 library = false
@@ -227,12 +263,12 @@ price_yearly = 9928
 price_lifetime = 16353
 included_bots = "1"
 automatic_shutdown = "Never"
-components_per_bot = "?"
-servers_per_bot = "?"
-flow_time_limit = "?"
+components_per_bot = "100 commands and 100 Discord, 50 timed, 50 webhook, 100 custom events"
+servers_per_bot = "Unlimited"
+flow_time_limit = "Unlimited"
 variable_storage = true
 database_storage = false
-storage_limit = "?"
+storage_limit = "30MB"
 collaboration = false
 bot_status = true
 library = false
