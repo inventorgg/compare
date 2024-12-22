@@ -21,7 +21,7 @@ flow_sharing = "Links or codes to share flows between bots."
 support = "Official/priority support availability."
 dashboard_themes = "Ability to set themes in the bot maker dashboard."
 bot_dashboard = "Ability to create a dashboard for your bot."
-notes = "Any additional details not covered by above." # notes should have a single space " " for a blank value
+notes = "Any additional details not covered by above." # notes should have "N/A" for a blank value
 
 [Inventor_Free]
 price_monthly = -1
@@ -43,7 +43,7 @@ flow_sharing = true
 support = true
 dashboard_themes = true
 bot_dashboard = true
-notes = " "
+notes = "N/A"
 
 [Inventor_Premium]
 price_monthly = 599
@@ -65,7 +65,7 @@ flow_sharing = true
 support = true
 dashboard_themes = true
 bot_dashboard = true
-notes = " "
+notes = "N/A"
 
 [Inventor_Ultimate]
 price_monthly = 1199
@@ -87,7 +87,7 @@ flow_sharing = true
 support = true
 dashboard_themes = true
 bot_dashboard = true
-notes = " "
+notes = "N/A"
 
 [BotGhost_Free]
 price_monthly = -1
@@ -109,7 +109,7 @@ flow_sharing = true
 support = false
 dashboard_themes = false
 bot_dashboard = true
-notes = " "
+notes = "N/A"
 
 [BotGhost_Premium_Single_Bot]
 price_monthly = 1100
@@ -131,7 +131,7 @@ flow_sharing = true
 support = true
 dashboard_themes = false
 bot_dashboard = true
-notes = " "
+notes = "N/A"
 
 [BotGhost_Premium_Multi_Bot]
 price_monthly = 2399
@@ -153,7 +153,7 @@ flow_sharing = true
 support = true
 dashboard_themes = false
 bot_dashboard = true
-notes = " "
+notes = "N/A"
 
 [BotWiz_Free]
 price_monthly = -1
@@ -175,7 +175,7 @@ flow_sharing = true
 support = true
 dashboard_themes = true
 bot_dashboard = false
-notes = " "
+notes = "N/A"
 
 [BotWiz_Basic]
 price_monthly = 521
