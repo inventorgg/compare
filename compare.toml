@@ -20,7 +20,7 @@ components_per_bot = "Number of commands/events/etc. you can create per bot."
 servers_per_bot = "Number of Discord servers a bot can be in."
 # --- Flow time limit
 # If flows are limited in the amount of time they can execute for (integer number or "Unlimited")
-flow_time_limit = "Time limit on user-created flows or code."
+flow_time_limit = "Time limit on user-created code, in seconds."
 # --- Variable storage
 # This includes per-server/user/etc. variables or a more general key-value storage scheme (true/false)
 variable_storage = "Variable storage type offered."
